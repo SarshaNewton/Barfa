@@ -1,0 +1,136 @@
+body{
+    font-family: "Century Gothic";
+    color: #636362 ;
+}
+table,th,tr,td{
+    border: #636362 solid 1px;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+input{
+    border: none;
+    font-family: "Century Gothic";
+    color: #636362 ;
+}
+h1{
+    font-family: "Bauhaus 93";
+    font-size: 2em;
+}
+button{
+    margin-top: 10px;
+    border: none;
+    background-color: #EDB107;
+    color: white;
+    padding: 10px;
+}
+/* ||SITE WIDE */
+.row {
+    display: flex; /* Enable Flexbox */
+    flex-direction: row;
+    display: flex;
+    flex-direction: row; /* Horizontal alignment */
+    justify-content: space-between; /* Spacing between items */
+    align-items: center; /* Align items vertically to center */
+    flex-wrap: wrap;
+    background-color: white;
+}
+.twenty{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.thirty {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+.fifty{
+    float: left;
+    width: 50%;
+}
+.seventy{
+    float: left;
+    width: 70%;
+}
+.eighty{
+    float: left;
+    width: 80%;
+    height:100%;
+}
+#details{
+    margin-top: 100px;
+}
+#sideBar{
+    background-color: #F4670A;
+    color: white;
+}
+#indexy{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#addEvent{
+    font-size: 4em;
+    color: #F4670A;
+    font-weight: bold;
+}
+.events{
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px 0px 10px 10px;
+}
+.innerTab{
+    border: none;
+}
+.innerTab *{
+    border: none;
+}
+
+#budgy{
+    width: 90%;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.modal-content button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
